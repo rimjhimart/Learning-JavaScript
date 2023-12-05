@@ -55,3 +55,6 @@ console.log(deletedvalues)
 
 let newnum = num.slice(3)      //slice out a piece of array and create a new array
 console.log(newnum) 
+
+let newnum2 = num.slice(4)      //slice out a piece of array and create a new array
+console.log(newnum2) 
