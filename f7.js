@@ -1,7 +1,7 @@
 const prompt =require("prompt-sync")()
 //create an array of numbers and take input from the user to add number to the arrays
 
-/*let arr1 = [4, 5, 6, 7, 8]
+let arr1 = [4, 5, 6, 7, 8]
 let b = prompt("enter b")
 b = Number.parseInt(b)
 arr1.push(b)
@@ -32,7 +32,7 @@ let d = arr4.map((Element)=>{
     console.log(Element)
     return Element*Element
 })
-console.log(d)*/
+console.log(d)
 
 
 //
