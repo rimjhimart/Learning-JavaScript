@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Practice #2
 console.log("Practicing JavaScript Part-2");
 console.log("\n");
@@ -32,3 +33,11 @@ console.log(item["Alok"]); //output:- 45
 //for this if there is not a defined VARIABLE in object then the output generated will be :undefined
 
 console.log(item["ahah"]); //output:- undefined
+=======
+let t = document.body.firstElementChild.firstElementChild
+console.log(t)
+console.log(t.rows)
+console.log(t.caption)
+console.log(t.tHead.firstElementChild)
+console.log(t.tBodies)
+>>>>>>> cf60768 (practice)
