@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Practice #1
 console.log("Practicing JavaScript part-1 ");
 //for declearition we use "consol.log()" the printing statement used as in the other languages... 
@@ -39,3 +40,59 @@ let a=10; //"LET" varibale don't make the ERROR same as of the VAR varible for e
 
 }
 console.log(a);
+=======
+//html file
+/*<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>    (website name)
+    <link rel="stylesheet" href="f1.css">       (linking css file)
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About me</li>          (content)
+            <li>Hire me</li>
+        </ul>
+    </nav>
+    <div  class="container">
+          <p>hey i am here to know something</p>
+    </div>
+    <script src="new.js"></script>
+</body>
+</html>*/
+
+//css file
+/*html, body {
+     height: 100%;
+     width: 100%;
+     margin: 0;
+     padding: 0;
+}
+
+ul{
+    display: flex;
+    background: gray;
+    margin: 0;
+    padding: 15px 0;
+    color: white;
+}
+ul li{
+     list-style: none;
+     margin: 0 23px ;
+}*/
+
+
+//javascript file
+
+const changeBodyRed = () => {
+    document.body.firstElementChild.style.background = "skyblue"
+}
+
+let b = document.body
+console.log("first child of b is: " , b.firstChild)
+console.log("first element child of b is: " , b.firstElementChild)
+>>>>>>> 1af1dba (trial to make a website)
