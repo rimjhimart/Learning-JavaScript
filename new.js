@@ -54,7 +54,7 @@ console.log(a);
     <nav>
         <ul>
             <li>Home</li>
-            <li>About me</li>          (content write as u wish)
+            <li>About me</li>          (content )
             <li>Hire me</li>
         </ul>
     </nav>
