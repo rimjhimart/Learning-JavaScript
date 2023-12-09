@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-// Practice #1
+
+/* Practice #1
 console.log("Practicing JavaScript part-1 ");
 //for declearition we use "consol.log()" the printing statement used as in the other languages... 
 console.log("hello world");
@@ -40,9 +40,9 @@ let a=10; //"LET" varibale don't make the ERROR same as of the VAR varible for e
 
 }
 console.log(a);
-=======
+
 //html file
-/*<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -95,4 +95,4 @@ const changeBodyRed = () => {
 let b = document.body
 console.log("first child of b is: " , b.firstChild)
 console.log("first element child of b is: " , b.firstElementChild)
->>>>>>> 1af1dba (trial to make a website)
+
