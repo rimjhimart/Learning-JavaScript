@@ -82,7 +82,7 @@ ul{
 }
 ul li{
      list-style: none;
-     margin: 0 23px ; (set margin)
+     margin: 0 23px ; (set margin as required)
 }*/
 
 
