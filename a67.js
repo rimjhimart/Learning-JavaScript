@@ -2,7 +2,7 @@ const createtodo = async ()=>{
     let options ={
         method: "POST",
         Headers: {
-            "content-type": "application/json"
+            "Content-type": "application/json"
         },
         body: JSON.stringify({
             title: 'harry',
