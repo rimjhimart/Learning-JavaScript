@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alignment</title>
+    <style>
+        *{
+box-sizing: border-box;
+        }
+        #link{
+            height: 20px;
+            width: 50px;
+            border: 5px solid rgb(44, 152, 44);
+            border-radius: 35px;
+            background-color: rgb(232, 183, 239);
+             
+        }
+        p,h3{
+            text-align: center;
+            /* text-align: left; */
+            /* text-align: right; */
+            /* text-align: center; */
+            /* jo v sbse niche hoga usko preference milega */
+        }
+        h1{
+    margin: auto ;
+     width:455px;
+        }
+.container{
+            width: 800px;
+border: 3px solid purple;
+margin: 90px auto; /*agr kisi v element ko cnter pe lana ho tb margin auto */
+/* margin : y x */
+background-color: rgb(244, 190, 143);
+}
+.item{
+border: 3px solid grey;
+padding: 12px 5px;
+margin: 12px 5px;
+background-color:rgb(241, 173, 173);
+}
+        #fruits{
+                 float: left;
+                 width: 48%;
+                
+}
+
+
+#computer{
+    float: left;
+                 width: 48%;
+}
+
+
+#stationary{
+    clear: left;
+    /* float: left; */
+    /* clear: left;  iska mtlb h ki jo v element float left h wo allowed ni h float left elemnt mere uprr ni aaye   */
+                 width: 99%;
+}
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>
+            WELCOME TO MY STORE
+        </h1>
+<div id="fruits" class="item">
+    <h3>fruits</h3>
+    <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quas vitae, eligendi, iusto esse facere nulla placeat veritatis atque perferendis, numquam dolor laudantium! Ipsam reiciendis provident maxime quidem mollitia deleniti nisi facere numquam sunt!
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut veritatis sapiente, quam dolore repudiandae consectetur quos harum consequuntur doloribus ducimus architecto quaerat, qui veniam corrupti eaque consequatur excepturi, alias accusantium recusandae fugit sint. Quos.
+    </p>
+</div>
+<div id="computer" class="item">
+    <h3>computer</h3>
+    <p id="computerpara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, pariatur quos voluptas architecto sit fugit ipsam similique maiores deleniti qui distinctio praesentium, eos in tempore mollitia repellat exercitationem illum non atque facere doloremque animi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur officiis impedit maiores corrupti voluptatibus. Vel repudiandae doloribus veniam cupiditate id! Odio molestias blanditiis aliquid atque accusantium hic saepe sint, laudantium mollitia iusto tenetur consectetur!</p>
+</div>
+<div id="stationary" class="item">
+    <h3>stationary</h3>
+    <p id="stationarypara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga, id nesciunt iste ab expedita neque voluptate architecto cum nihil, beatae sapiente distinctio doloremque similique temporibus quas consectetur! Animi, ipsam. Quia, vero nostrum! Soluta?</p>
+</div>
+
+<div id="glasses" class="item">
+    <h3>Glasses</h3>
+    <p id="glassespara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam fuga, id nesciunt iste ab expedita neque voluptate architecto cum nihil, beatae sapiente distinctio doloremque similique temporibus quas consectetur! Animi, ipsam. Quia, vero nostrum! Soluta?</p>
+</div>
+</div>
+
+
+    <div>
+        <a href="https://www.youtube.com/watch?v=6G42rXal5-g&list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg&index=21" target="_blank" id="link">video of this lecture  vvi</a>
+    </div>
+</body>
+</html>
