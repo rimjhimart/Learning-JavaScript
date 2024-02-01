@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector Example</title>
+</head>
+<body>
+
+    <div id="myDiv">
+        <p class="exampleClass">Hello, World!</p>
+    </div>
+
+    <script>
+        // Selecting an element by its ID
+        const elementById = document.querySelector('#myDiv');
+
+        // Selecting an element by its class
+        const elementByClass = document.querySelector('.exampleClass');
+
+        // Checking if elements were found and modifying them
+        if (elementById) {
+            elementById.style.backgroundColor = 'lightblue';
+        }
+
+        if (elementByClass) {
+            elementByClass.textContent = 'Modified content';
+        }
+    </script>
+
+</body>
+</html>
