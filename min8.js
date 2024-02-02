@@ -16,6 +16,6 @@ if (elementById) {
 }
 
 // You can also modify the selected element
-if (elementByClass) {
+if (elementByClass) { 
     elementByClass.textContent = 'New content';
 }
