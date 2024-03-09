@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #dice {
+            font-size: 48px;
+            cursor: pointer;
+            user-select: none;
+            transition: transform 0.1s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <div id="dice" onclick="rollDice()">1</div>
+
+    <script>
+        function rollDice() {
+            var diceElement = document.getElementById("dice");
+            var randomNumber = Math.floor(Math.random() * 6) + 1;
+
+            // Update the dice face
+            diceElement.textContent = randomNumber;
+
+            // Add animation effect
+            diceElement.style.transform = "rotate(360deg)";
+            setTimeout(function() {
+                diceElement.style.transform = "rotate(0deg)";
+            }, 100);
+        }
+    </script>
+</body>
+</html>
